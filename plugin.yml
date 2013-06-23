@@ -1,0 +1,14 @@
+name: Wiezienie
+main: com.radzik.wiezienie.Wiezienie
+version: 0.1
+commands:
+ zamknij:
+  description: This command can be used to jail sb
+  usage: /zamknij [player]
+  permission: wiezienie.zamknij
+  permission-message: Nie masz odpowiednich uprawnień !
+ uwolnij:
+  description: This command can be used to unjail sb
+  usage: /uwolnij [player]
+  permission: wiezienie.uwolnij
+  permission-message: Nie masz odpowiednich uprawnień !
